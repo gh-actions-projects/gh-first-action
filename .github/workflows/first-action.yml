@@ -4,7 +4,5 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print readme content
-        run: cat README.md
       - name: Print greeting
         run: echo "Done - bye!"
